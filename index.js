@@ -1,4 +1,4 @@
-function ded(a, b) {
+function ded(a, b) {  // added deduction calculation
     let value1 = a;
     let value2 = b;
     let result = value1 - value2;
