@@ -1,5 +1,6 @@
 
-function deduct(a, b) {
+
+function deduct(a, b) {  // added deduction calculation
     let value1 = a;
     let value2 = b;
     let result = a - b;
