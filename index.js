@@ -2,6 +2,12 @@ function ded(a, b) {  // added deduction calculation
     let value1 = a;
     let value2 = b;
     let result = value1 - value2;
+
+
+function deduct(a, b) {  // added deduction calculation
+    let value1 = a;
+    let value2 = b;
+    let result = a - b;
     return result;
 }
 
@@ -9,6 +15,7 @@ function sum(a, b) {
     let value1 = a;
     let value2 = b;
     let result = value1 + value2;
+    let result = a + b;
     return result;
 }
 
@@ -47,6 +54,7 @@ function arraySum(a, b)
 }
 
 console.log("ded: " + ded(30, 20));
+console.log("deduct: " + deduct(30, 20));
 console.log("sum: " + sum(30, 20));
 console.log("max: " + max(10, 13));
 console.log("factorial: " + factorial(3));
